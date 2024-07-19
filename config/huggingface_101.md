@@ -152,3 +152,5 @@ outputs = model(**inputs)
    ```
 
 Remember to replace placeholder text and parameters with your specific use case requirements. This cheatsheet provides a quick reference for common Hugging Face operations, allowing easy customization for various AI tasks without relying on paid APIs.
+
+xdg-open https://huggingface.co/models
