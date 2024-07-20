@@ -69,3 +69,6 @@ Citations:
 [1] https://github.com/public-apis/public-apis.git
 [2] https://github.com/Avaiga/taipy.git
 [3] https://github.com/codecrafters-io/build-your-own-x.git
+
+## 8. https://github.com/huggingface/transformers.git
+
