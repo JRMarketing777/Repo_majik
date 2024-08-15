@@ -18,6 +18,46 @@
   - Follow prompts to enter token and new password.
 * **Note:** Using a strong password is recommended for security.
 
+## Jupyter Notebook Tutorial: Getting Started
+
+### Understanding the Login Screen
+
+Jupyter Notebook employs token-based authentication by default for security. This means you'll need a specific token to access your notebook server.
+
+**How to Proceed:**
+
+1. **Find your token:**
+   Open your terminal and run `jupyter notebook list`. This command displays a list of running Jupyter Notebook servers with their respective tokens. Copy the token corresponding to your server.
+
+2. **Enter the token:**
+   Paste the copied token into the password field on the login screen and press Enter.
+
+### Setting Up a Password (Optional)
+
+While convenient, using a token is less secure than a password. Here's how to set up a password:
+
+1. Click "Setup a Password" on the login screen.
+2. Enter your token when prompted.
+3. Create a new password and confirm it.
+
+### Additional Tips
+
+* **Security:** Prioritize security by using a strong password and limiting access to your Jupyter Notebook server.
+* **Browser Cookies:** Ensure your browser allows cookies for the Jupyter Notebook server.
+* **Firewall:** Check if your firewall is blocking access to the Jupyter Notebook server.
+
+### Tutorial Resources
+
+For a more in-depth guide on using Jupyter Notebook, explore these resources:
+
+* **Dataquest:** [https://www.dataquest.io/blog/jupyter-notebook-tutorial/](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
+* **DebugPoint:** [https://www.debugpoint.com/jupyter-notebook-tutorial/](https://www.debugpoint.com/jupyter-notebook-tutorial/)
+
+These resources cover installation, basic usage, and advanced features.
+
+Would you like to proceed with setting up a password or need further assistance with finding your token?
+
+
 ### Installation
 
 #### Installing Jupyter Notebook on Linux
