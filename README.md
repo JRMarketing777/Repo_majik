@@ -93,7 +93,7 @@ deactivate
 
 ```bash
 # Clone a repository
-git clone <repository-url>
+git clone <repository-url> https://github.com/JRMarketing777/Repo_majik.git
 
 # Check status
 git status
@@ -108,7 +108,7 @@ git commit -m "Commit message"
 git push origin <branch-name>
 
 # Pull changes from remote
-git pull origin <branch-name>
+git pull origin <branch-name> https://github.com/JRMarketing777/Repo_majik.git
 
 # Create and switch to a new branch
 git checkout -b <new-branch-name>
