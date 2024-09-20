@@ -234,3 +234,22 @@ Remember to replace `"new_directory"` and `"new_file.txt"` with your desired nam
 * For more advanced file operations, explore the `pathlib` module.
 * Consider using a virtual environment for your Python projects to manage dependencies effectively.
 
+## Linux System Information Cheat Sheet
+
+| Command | Description |
+|---|---|
+| `lsb_release -a` | Displays distribution information (name, version, codename). |
+| `hostnamectl` | Provides hostname, domain name, and other system information. |
+| `uname -a` | Shows kernel version, CPU architecture, hostname, and more. |
+| `lscpu` | Displays CPU information (model, speed, cores). |
+| `lspci` | Lists PCI devices (graphics, network, sound). |
+| `lsusb` | Lists USB devices. |
+| `df -h` | Shows disk usage information (mount point, size, used, available). |
+| `free -h` | Shows memory usage (total, used, available). |
+| `dpkg -l` (Debian/Ubuntu) | Lists installed packages. |
+| `rpm -qa` (Red Hat/Fedora) | Lists installed packages. |
+| `pacman -Q` (Arch Linux) | Lists installed packages. |
+| `htop` | Interactive task manager. |
+| `ifconfig` | Displays network interface information. |
+| `systemctl status` | Checks service status. |
+
